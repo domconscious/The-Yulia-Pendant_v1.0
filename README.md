@@ -28,8 +28,9 @@ Charliewing 3v -> Normally closed pin of expensive button above
 Reason for the expensive button:
 The Charliewing doesn't have a sleep function and will continue to consume power if there _was_ data at any time while powered.  If it's reset and doesn't detect data, it seems to go to sleep and doesn't consume any power.  This button interrupts power to the display (resetting it) while simultaneously brings pin15 HIGH on the ESP8266, putting it to sleep.  This is a hack.
 
-Todo's:
-[] Configure for multiple animations
-[] Enable change animation button
-[] Low battery auto sleep (this is a pain in the ass)
-[] Enable wifi detection for synchronized animations
+### Todos
+
+ - Configure for multiple animations
+ - Enable change animation button
+ - Low battery auto sleep (this is a pain in the ass)
+ - Enable wifi detection for synchronized animations
