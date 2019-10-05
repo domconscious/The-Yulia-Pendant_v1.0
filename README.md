@@ -10,12 +10,12 @@ Arduino sketch is comprised of 'Pendant.ino' and 'animation.h' -- latter contain
 The 'convert_big.py' is a python script that processes all the source PNG images into the required animation.h format. The PNG images were generated from Video to Image Converter by ChitPit.com using stock video found online.  I captured video, processed it using Gif Brewery 3 to an MP4 scaled down to a lower resolution in greyscale, then used Video to Image Converter to PNG files.  The convert_big.py converts those PNGs into the required format for Arduino.  This could probably be simplified and made free with imagemagick if someone wants to contribute.  I made most of this project with the help of French wine.
 
 ### Parts list
-LOLIN D1 Mini Pro ESP8266
-7x15 Adafruit Charliewing led board
-[Tiny momentary close buttons like these](https://www.aliexpress.com/item/32752118872.html)
-[This expensive button](https://eu.mouser.com/ProductDetail/MEC-Switches/5GTH935NCNO?qs=%2Fha2pyFaduiEqH38T7D7hmD7dw5qGaZB2vqjp9MmKqZFphREVoZFTg%3D%3D) for sleep function (I'm open to other suggestions!)
-Solid jumper wires
-560mah lipo battery
+* LOLIN D1 Mini Pro ESP8266
+* 7x15 Adafruit Charliewing led board
+* [Tiny momentary close buttons like these](https://www.aliexpress.com/item/32752118872.html)
+* [This expensive button](https://eu.mouser.com/ProductDetail/MEC-Switches/5GTH935NCNO?qs=%2Fha2pyFaduiEqH38T7D7hmD7dw5qGaZB2vqjp9MmKqZFphREVoZFTg%3D%3D) for sleep function (I'm open to other suggestions!)
+* Solid jumper wires
+* 560mah lipo battery
 
 ### Pinouts
 * LOLIN D1 Mini Pro pin4 -> IO, SDA of Charliewing
