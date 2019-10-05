@@ -1,5 +1,5 @@
 # The Yulia Pendant
-Animated pendant using a LOLIN ESP8266 and Adafruit CharliePlex FeatherWing 15x7 LED array
+Animated pendant using a LOLIN D1 Mini Pro ESP8266 and Adafruit CharliePlex FeatherWing 15x7 LED array
 
 This is a fork of a Clone of Adafruit/FirePendant, modified for the Feather, then modified for ESP8266, I put my thang down, flip it and reverse it, Ti esrever dna ti pilf nwod gnaht ym tup i.  Oh yah, it loops a canned animation sequence on the display.  There's a conversion tool included for grey scale PNGs to a format that draws pixels.
 
