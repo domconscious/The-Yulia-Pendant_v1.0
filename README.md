@@ -12,18 +12,18 @@ The 'convert_big.py' is a python script that processes all the source PNG images
 ### Parts list
 LOLIN D1 Mini Pro ESP8266
 7x15 Adafruit Charliewing led board
-[Tiny momentary close buttons like these] (https://www.aliexpress.com/item/32752118872.html)
-[This expensive button] (https://eu.mouser.com/ProductDetail/MEC-Switches/5GTH935NCNO?qs=%2Fha2pyFaduiEqH38T7D7hmD7dw5qGaZB2vqjp9MmKqZFphREVoZFTg%3D%3D) for sleep function (I'm open to other suggestions!)
+[Tiny momentary close buttons like these](https://www.aliexpress.com/item/32752118872.html)
+[This expensive button](https://eu.mouser.com/ProductDetail/MEC-Switches/5GTH935NCNO?qs=%2Fha2pyFaduiEqH38T7D7hmD7dw5qGaZB2vqjp9MmKqZFphREVoZFTg%3D%3D) for sleep function (I'm open to other suggestions!)
 Solid jumper wires
 560mah lipo battery
 
 ### Pinouts
-LOLIN D1 Mini Pro pin4 -> IO, SDA of Charliewing
-LOLIN D1 Mini Pro pin5 -> IO, SCL of Charliewing
-LOLIN D1 Mini Pro pin15 -> Normally Open pin of expensive button above
-LOLIN D1 Mini Pro 3v -> Normally closed pin of expensive button above
-LOLIN D1 Mini Pro Gnd -> Charliewing Gnd
-Charliewing 3v -> Normally closed pin of expensive button above
+*LOLIN D1 Mini Pro pin4 -> IO, SDA of Charliewing
+*LOLIN D1 Mini Pro pin5 -> IO, SCL of Charliewing
+*LOLIN D1 Mini Pro pin15 -> Normally Open pin of expensive button above
+*LOLIN D1 Mini Pro 3v -> Normally closed pin of expensive button above
+*LOLIN D1 Mini Pro Gnd -> Charliewing Gnd
+*Charliewing 3v -> Normally closed pin of expensive button above
 
 ### Reason for the expensive button
 The Charliewing doesn't have a sleep function and will continue to consume power if there _was_ data at any time while powered.  If it's reset and doesn't detect data, it seems to go to sleep and doesn't consume any power.  This button interrupts power to the display (resetting it) while simultaneously brings pin15 HIGH on the ESP8266, putting it to sleep.  This is a hack.
