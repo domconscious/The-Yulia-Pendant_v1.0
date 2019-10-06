@@ -35,3 +35,5 @@ The Charliewing doesn't have a sleep function and will continue to consume power
  - Enable change animation button
  - Low battery auto sleep (this is a pain in the ass)
  - Enable wifi detection for synchronized animations
+ 
+![alt text](https://github.com/domconscious/The-Yulia-Pendant_v1.0/blob/master/overview.jpeg)
